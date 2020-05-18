@@ -7,7 +7,7 @@ module.exports = {
    entry: "./src/client/index.js",
    mode: "production",
    output: {
-      LibraryTarget: "var",
+      libraryTarget: "var",
       library: "client",
    },
    module: {
